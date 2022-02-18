@@ -3,7 +3,6 @@ var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
-var del = require('del');
 var spritesmith = require('gulp.spritesmith');
 
 // Function to minify and combine js files.
