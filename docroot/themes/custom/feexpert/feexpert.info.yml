@@ -1,0 +1,9 @@
+name: FE Expert
+description: Custom theme for frontend expert OKR.
+type: theme
+package: custom
+base theme: classy
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - feexpert/global-styling
