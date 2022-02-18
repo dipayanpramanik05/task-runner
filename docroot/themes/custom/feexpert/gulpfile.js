@@ -41,6 +41,7 @@ exports.cssBundle = function() {
 // Generate Image Sprite.
 exports.imageSprite = function() {
    var spriteData = gulp.src('./images/icons/*.png')
+    // Generate sprite image and css for sprite image.
     .pipe(spritesmith({
         imgName: 'sprite.png',
         cssName: 'sprite.css'
