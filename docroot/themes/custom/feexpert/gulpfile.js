@@ -10,7 +10,7 @@ var spritesmith = require('gulp.spritesmith');
 function jsBundle(cb) {
   gulp.src('./js/*.js')
     .pipe(concat('script.js'))
-    // The gulp-uglify plugin won't update the filename
+    // The gulp-uglify to minify js files.
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js'));
   cb();
@@ -34,7 +34,7 @@ exports.cssBundle = function() {
 //   //return gulp.src(['js/*.js', '!js/script.js'])
 //   return gulp.src('./js/*.js')
 //     .pipe(concat('script.js'))
-//     // The gulp-uglify plugin won't update the filename
+//     // The gulp-uglify to minify js files.
 //     .pipe(uglify())
 //     .pipe(gulp.dest('./dist/js'));
 // }
