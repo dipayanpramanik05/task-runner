@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de8b26edc78a7feb3751c0d01b5a8bf2",
+    "content-hash": "ec597e0bf1f0377c75341bc93fc340a5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -611,6 +611,59 @@
             }
         },
         {
+            "name": "drupal/contact_block",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/contact_block.git",
+                "reference": "8.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/contact_block-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "bca712537dac0f3b91fcdefbaecaa00033fe9a74"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.6",
+                    "datestamp": "1633292142",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sutharsan",
+                    "homepage": "https://www.drupal.org/user/73854"
+                },
+                {
+                    "name": "vuil",
+                    "homepage": "https://www.drupal.org/user/3568458"
+                }
+            ],
+            "description": "The Contact Block module provides contact forms in a block.",
+            "homepage": "https://www.drupal.org/project/contact_block",
+            "keywords": [
+                "Drupal",
+                "contact_block"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/contact_block",
+                "issues": "https://www.drupal.org/project/issues/contact_block"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "9.3.6",
             "source": {
@@ -1043,6 +1096,57 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.3.6"
             },
             "time": "2022-02-15T20:26:28+00:00"
+        },
+        {
+            "name": "drupal/social_media_links",
+            "version": "2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/social_media_links.git",
+                "reference": "8.x-2.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/social_media_links-8.x-2.8.zip",
+                "reference": "8.x-2.8",
+                "shasum": "7702fd4465c47767f6be0444015fa9bcdbfb1aa6"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.8",
+                    "datestamp": "1615222684",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Christian Beier",
+                    "homepage": "https://www.drupal.org/u/cbeier",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "The module provides a block that display links (icons) to your profiles on various social networking sites.",
+            "homepage": "https://www.drupal.org/project/social_media_links",
+            "support": {
+                "source": "https://git.drupalcode.org/project/social_media_links",
+                "issues": "https://www.drupal.org/project/issues/social_media_links"
+            }
         },
         {
             "name": "egulias/email-validator",

@@ -1,0 +1,20 @@
+{{ form.form.form_build_id }}
+{{ form.form.form_id }}
+{{ form.form.form_token }}
+
+
+<div class="fields">
+  <div class="field half">
+    {{ form.field_name }}
+  </div>
+  <div class="field half">
+    {{ form.field_email }}
+  </div>
+  <div class="field">
+    {{ form.message }}
+  </div>
+</div>
+<ul class="actions">
+  <li>{{ form.actions.submit }}</li>
+  <li>{{ form.clear }}</li>
+</ul>
