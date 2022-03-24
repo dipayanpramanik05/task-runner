@@ -1,0 +1,14 @@
+fe_expert_core.js_assignment:
+  path: '/admin/js-assignment'
+  defaults:
+    _title: 'Ajax enabled form'
+    _form: 'Drupal\fe_expert_core\Form\JsAssignmentForm'
+  requirements:
+    _permission: 'adccess content'
+
+fe_expert_core.autocomplete:
+  path: '/assignment-form/childtag/{pid}'
+  defaults:
+    _controller: '\Drupal\fe_expert_core\Controller\AutocompleteController::handleAutocomplete'
+  requirements:
+    _access: 'TRUE'

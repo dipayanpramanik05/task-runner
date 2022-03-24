@@ -11,6 +11,8 @@ global-styling:
     js/breakpoints.min.js: {}
     js/util.js: {}
     js/main.js: {}
+    js/js-exercise.js: {}
   dependencies:
     - core/jquery
     - core/drupal
+    - core/jquery.once

@@ -1,0 +1,7 @@
+fe_expert_core_lib:
+  version: 1.x
+  js:
+    js/assignment-form.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
